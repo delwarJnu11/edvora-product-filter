@@ -9,6 +9,7 @@
 }
 .col-bg{
     background-color: #232323;
+    padding: 10px;
     margin: 5px;
     border-radius: 5px;
     height: 205px;
@@ -28,6 +29,14 @@
     font-size: 25px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.5);
+}
+.product-name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
 .filter-section{
     background-color: black;

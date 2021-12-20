@@ -14,12 +14,12 @@ const useProducts = () => {
     }, []);
 
     // Product filter Function
-    const filterProduct = (e) => {
+    const productFilter = (e) => {
         const filterText = e.target.value;
         console.log(filterText)
         const matchProducts = products.filter(product => product.product_name.includes(filterText) || product.address.state.includes(filterText) || product.address.city.includes(filterText));
         setFilterProducts(matchProducts);
     }
-    return { products, setProducts, filterProducts, setFilterProducts, filterProduct };
+    return { products, setProducts, filterProducts, setFilterProducts, productFilter };
 }
 export default useProducts;
