@@ -1,12 +1,33 @@
+.home-section{
+    width: 95%;
+    margin: 0 auto;
+}
+.row-bg{
+    background-color: #131313;
+    padding: 10px;
+    border-radius: 5px;
+}
+.col-bg{
+    background-color: #232323;
+    margin: 5px;
+    border-radius: 5px;
+    height: 205px;
+}
 .title{
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
-
-
-color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87);
+}
+.products-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .filter-section{
     background-color: black;
